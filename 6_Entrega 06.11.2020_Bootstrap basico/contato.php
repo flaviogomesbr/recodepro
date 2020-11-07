@@ -10,11 +10,11 @@ if (!$conn) {
   die("A conexao falhou:" . mysqli_connect_error());
 }
 
-if (isset($_POST['nome']) && isset($_POST['msg'])) {
+if (isset($_POST['nome']) && isset($_POST['mensagem'])) {
   $nome = $_POST['nome'];
-  $msg = $_POST['msg'];
+  $msg = $_POST['mensagem'];
 
-  $sql = "INSERT INTO comentarios (nome, msg) VALUES ('$nome','$msg')";
+  $sql = "INSERT INTO comentarios (nome, mensagem) VALUES ('$nome','$msg')";
   $result = $conn->query($sql);
 }
 ?>
@@ -87,7 +87,7 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
             <input type="text" name="nome" class="form-control border border-primary" />
             <br />
             <h5 class="text-black">Mensagem:</h5>
-            <textarea name="msg" cols="30" rows="10" class="form-control border border-primary"></textarea>
+            <textarea name="mensagem" cols="30" rows="10" class="form-control border border-primary"></textarea>
           </div>
 
           <div class="m-3">
@@ -110,7 +110,7 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
           while ($rows = $result->fetch_assoc()) {
             echo "<br>" . $rows['nome'];
             echo "(" . $rows['data'] . "):<br>";
-            echo $rows['msg'] . "<br>";
+            echo $rows['mensagem'] . "<br>";
           }
         } else {
           echo "Nenhum comentário ainda!";
