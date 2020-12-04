@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 <meta charset="utf-8">
 
+=======
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 <?php
 $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "fseletro";
 $conn = mysqli_connect($servername, $username, $password, $database);
+<<<<<<< HEAD
+=======
+mysqli_set_charset($conn , "utf8");
+
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 
 if (!$conn) {
   die("A conexao falhou:" . mysqli_connect_error());
@@ -44,7 +52,11 @@ if (!$conn) {
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('geladeira')">Geladeiras (3) </button></li>
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('fogao')">Fogões (2) </button></li>
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('microondas')">Micro-ondas (3) </button></li>
+<<<<<<< HEAD
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavaloucas')">Lava-louças (2) </button></li>
+=======
+          <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavalouca')">Lava-louças (2) </button></li>
+>>>>>>> 4aed5d3 (atualizando pastas do git)
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavaroupas')">Lavadora de roupas (2) </button></li>
         </ul>
       </div>

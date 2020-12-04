@@ -23,7 +23,11 @@
   <?php include_once('menu.html') ?>
 
   <header class="container text-black  border-bottom border-white mb-3" style="padding-top: 60px;">
+<<<<<<< HEAD
     <h2>Nossas Lojas_FullStackEletro</h2>
+=======
+    <h2>Nossas Lojas</h2>
+>>>>>>> 4aed5d3 (atualizando pastas do git)
   </header>
 
   <main class="container flex-fill">

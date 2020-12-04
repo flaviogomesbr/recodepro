@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /* TABELA 1: ID, Nome, Data de nascimento, CPF, sexo, nacionalidade, e-mail */;
+=======
+DROP DATABASE if exists fseletro;
+CREATE DATABASE if not exists fseletro;
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 
 CREATE TABLE `cadastrocliente` (
   `idcadastrocliente` int(11) NOT NULL AUTO_INCREMENT,
@@ -11,9 +16,15 @@ CREATE TABLE `cadastrocliente` (
   PRIMARY KEY (`idcadastrocliente`),
   UNIQUE KEY `cpf_UNIQUE` (`cpf`),
   UNIQUE KEY `email_UNIQUE` (`email`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 /* Inserindo dados na TABELA 1 */;
+=======
+) ;
+
+
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 INSERT INTO `cadastrocliente` VALUES 
                                     (1,'Abel Silva','2000-12-01','35452290740','M','Brasil','abelsilva@gmail.com'),
                                     (2,'Bruno Silva','2000-12-02','35452290741','M','Argentina','bruno@gmail.com'),
@@ -28,9 +39,13 @@ INSERT INTO `cadastrocliente` VALUES
 
 
 
+<<<<<<< HEAD
 /* TABELA 2: Categorias, produtos, preço antigo, preço novo e imagens */;
 
 /* Criando TABELA 2 */;
+=======
+
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 CREATE TABLE `produto` (
   `idproduto` int(11) NOT NULL AUTO_INCREMENT,
   `categoria` varchar(45) NOT NULL,
@@ -39,10 +54,17 @@ CREATE TABLE `produto` (
   `precofinal` decimal(8,2) NOT NULL,
   `imagem` varchar(255) NOT NULL,
   PRIMARY KEY (`idproduto`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 
 
 /* Inserindo itens na TABELA 2 */;
+=======
+) ;
+
+
+
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 INSERT INTO `produto` (`idproduto`, `categoria`, `descricao`, `preco`, `precofinal`, `imagem`) VALUES
                     (1,'geladeira','Geladeira Brastemp Frost Free Side Inverse 540 litros',6389.00,5019.00,'./imagens/geladeira1.jpeg'),
                     (2,'geladeira','Geladeira Brastemp Branca Frost Free 375 litros',2068.00,1910.90,'./imagens/geladeira2.jpeg'),
@@ -56,7 +78,11 @@ INSERT INTO `produto` (`idproduto`, `categoria`, `descricao`, `preco`, `precofin
                     (10,'lavalouca','Lava-Louça Compacta com 8 Serviços Branca 127V Brastemp',1970.50,1730.61,'./imagens/lavalouca2.jpeg'),
                     (11,'lavaroupas','Lavadora de Roupas Brastemp 11 kg com Turbo Performance Branca',1690.00,1214.10,'./imagens/lavadoraderoupas1.jpeg'),
                     (12,'lavaroupas','Lavadora de Roupas Philco Inverter 12 kg',2399.00,2179.90,'./imagens/lavadoraderoupas2.jpeg');
+<<<<<<< HEAD
 COMMIT;
+=======
+
+>>>>>>> 4aed5d3 (atualizando pastas do git)
 
 
 CREATE TABLE comentarios (
