@@ -1,0 +1,9 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'fseletro'
+// fseletro.comentarios
+
+[{"id": 1,"nome": "Flavio","msg": "teste","dia": "0000-00-00 00:00:00"}, {"id": 9,"nome": "flavio","msg": "flavio123","dia": "2021-02-04 19:32:14"}]
