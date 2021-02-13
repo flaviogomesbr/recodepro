@@ -18,7 +18,7 @@ const Contact = () => {
         event.preventDefault();
         let form = { 
         nome: nome,
-        msg: mensagem,
+        mensagem: mensagem
         }
 
         const url = "http://localhost:5000/comentarios"
