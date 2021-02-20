@@ -1,2 +1,2 @@
-# EduImpulso-Mobile
- Versão Mobile EduImpulso
+# React Native
+React Native
