@@ -5,20 +5,24 @@ import {
 const styles = StyleSheet.create({
     cartImage: {
         width: "100%", 
+        backgroundColor: "black",
     },
     image: {
         width: "100%", 
         height: 150,
+        backgroundColor: "black",
     },
     cartNews: {
         width: "100%", 
         height: 150,
+        backgroundColor: "black",
     },
     cardContainer: {
         width: "100%",
         padding: 10,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "black",
     },
 
     newsImage: {
@@ -30,7 +34,7 @@ const styles = StyleSheet.create({
     card: {
         borderRadius: 10,
         borderWidth: 2,
-        borderColor: "#8B1CDA",
+        borderColor: "darkslategrey",
         marginBottom: 20
     },
     cartInfos:{
@@ -39,7 +43,7 @@ const styles = StyleSheet.create({
     },
     cardText: {
         alignItems: "center",
-        color: "white",
+        color: "black",
     },
     botaoCard: {
         width: "80%",

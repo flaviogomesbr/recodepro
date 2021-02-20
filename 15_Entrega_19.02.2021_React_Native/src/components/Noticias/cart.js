@@ -21,13 +21,13 @@ function CartNews(props) {
         </View>
 
         <View style={styles.cartInfos}>
-          <Text style={{ fontSize: 20, textAlign: "center" }}>
+          <Text style={{ fontSize: 18, textAlign: "center", color: "white" }}>
               {props.title}
           </Text>
 
           <View style={styles.botaoCard}>
             <TouchableOpacity style={styles.btn}>
-              <Text style={styles.texto}  onPress={() => Linking.openURL(`${props.link}`)}>acessar notícia</Text>
+              <Text style={styles.texto}  onPress={() => Linking.openURL(`${props.link}`)}>veja mais</Text>
             </TouchableOpacity>
           </View>
         </View>

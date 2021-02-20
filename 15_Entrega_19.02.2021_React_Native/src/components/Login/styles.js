@@ -16,9 +16,6 @@ const styles = StyleSheet.create({
         padding: 10,
         margin: 10,
         width: "100%",
-        borderWidth: 1,
-        borderColor: "white"
-
     },
     input: {
         backgroundColor: "white",

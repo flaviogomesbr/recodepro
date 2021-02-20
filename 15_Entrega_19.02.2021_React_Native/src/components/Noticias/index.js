@@ -26,8 +26,8 @@ function Noticias() {
                 
             </View>
 
-            <View style={{borderWidth: 0.5, opacity: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, borderColor: "#20232a", padding: 40, alignItems: "center", justifyContent: "center"}}> 
-                <Text style={{fontSize: 30}}>notícias 📰 </Text>
+            <View style={{borderWidth: 0.5, opacity: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, borderColor: "#20232a", padding: 0, alignItems: "center", justifyContent: "center", backgroundColor: "black", color:"white"}}> 
+                <Text style={{fontSize: 30, color:"white"}}>notícias 📰</Text>
             </View>
 
             <View style={styles.cardContainer}>

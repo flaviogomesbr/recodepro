@@ -8,7 +8,7 @@ import {
 } from "react-native";
 
 import { TextInput } from "react-native-gesture-handler";
-import bannerLogin from '../../imgs/login.jpg'
+import bannerLogin from '../../imgs/login.jpeg'
 import styles from "./styles";
 
 function Login() {
@@ -22,13 +22,13 @@ function Login() {
 
             <View>
                 <Text style={styles.titulo}>
-                    login
+                    login ✅
                 </Text>
             </View>
             
             <View style={styles.inputs}>
                 <TextInput
-                placeholder="usuário"
+                placeholder="usuario"
                 style={styles.input}
                 />
                 <TextInput
@@ -40,7 +40,7 @@ function Login() {
                 <TouchableOpacity style={styles.btn} onPress={autenticacao}>
                     <Text style={styles.texto}>entrar</Text>
                 </TouchableOpacity>
-                <Text style={{color: "white"}}>cadastre-se aqui!</Text>
+                <Text style={{color: "white"}}>Cadastre-se aqui!</Text>
 
 
             </View>
