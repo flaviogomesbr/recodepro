@@ -11,13 +11,12 @@ import CartNews from './cart';
 import styles from './styles';
 
 import newsImage from '../../imgs/newsImage.jpg';
-
 import newsImage1 from '../../imgs/news/news1.png';
 import newsImage2 from '../../imgs/news/news2.png';
 import newsImage3 from '../../imgs/news/news3.png';
 import newsImage4 from '../../imgs/news/news4.png';
 
-function Noticias() {
+function News() {
     return (
         <ScrollView>
             <View style={styles.cartImage}>
@@ -26,7 +25,7 @@ function Noticias() {
                 
             </View>
 
-            <View style={{borderWidth: 0.5, opacity: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, borderColor: "#20232a", padding: 0, alignItems: "center", justifyContent: "center", backgroundColor: "black", color:"white"}}> 
+            <View style={{borderWidth: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, borderColor: "#20232a", padding: 0, alignItems: "center", justifyContent: "center", backgroundColor: "black", color:"white"}}> 
                 <Text style={{fontSize: 30, color:"white"}}>notícias 📰</Text>
             </View>
 
@@ -43,6 +42,6 @@ function Noticias() {
 
 {/* style={{borderWidth: 2,borderColor: "#20232a"}} */}
 
-export default Noticias;
+export default News;
 
 

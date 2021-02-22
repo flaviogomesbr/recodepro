@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Login from './src/components/Login/'
-import News from './src/components/Noticias/'
+import News from './src/components/News/'
 import Home from './src/components/Home/'
 
 export default function App() {

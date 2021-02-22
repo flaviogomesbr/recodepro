@@ -11,6 +11,9 @@ function cart(props) {
 
     return (
 
+        <ScrollView style={{fontFamily: "ubuntu"}}>
+        <StatusBar />
+
         <View style={styles.cardContainer}>
             <View style={styles.card}>
                 <View style={styles.cardText}>
@@ -28,6 +31,7 @@ function cart(props) {
             </View>
         </View>
 
+        </ScrollView>
     );
 }
 

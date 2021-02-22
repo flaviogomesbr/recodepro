@@ -16,6 +16,9 @@ function Home({navigation}) {
     function linkLogar() {
         navigation.navigate("Login")
     }
+    function linkNews() {
+        navigation.navigate("News")
+    }
 
     return (
 
@@ -39,10 +42,28 @@ function Home({navigation}) {
                     </View>
                     <View style={styles.botaoCard}>
                         <TouchableOpacity style={styles.btn} onPress={linkLogar}
-                        ><Text style={styles.texto} onPress={linkLogar}>Logar</Text></TouchableOpacity>
+                        ><Text style={styles.texto} onPress={linkLogar}>logar</Text></TouchableOpacity>
                     </View>
                 </View>
             </View>
+
+            <View style={styles.cardContainer}>
+                <View style={styles.card}>
+                    <View style={styles.cardText}>
+                        <Text style={{ fontSize: 25, fontWeight: 'bold' }}>
+                            notícias
+                        </Text>
+                        <Text style={{ fontSize: 20, textAlign: 'center' }}>
+                            fique por dentro das principais novidades
+                        </Text>
+                    </View>
+                    <View style={styles.botaoCard}>
+                        <TouchableOpacity style={styles.btn} onPress={linkNews}
+                        ><Text style={styles.texto} onPress={linkNews}>acessar</Text></TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+
 
             {/* <Cart h1="LOGIN" txt="Clique aqui e realize seu login!"/> */}
 
