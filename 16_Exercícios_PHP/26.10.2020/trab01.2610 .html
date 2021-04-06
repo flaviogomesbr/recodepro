@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+</head>
+<html>
+    <body>
+    <!-- 
+        TRABALHO 1
+        Criar um arquivo html de nome formularioenvio.html
+        Criar uma tag <form> para que o usuário informe os seguintes dados:	
+        nome (texto)	senha (texto)	gênero (radio button)	turno (checkbox)	cidade (select) botão enviar (botão)
+        Após a digitação das informações, as mesmas devem ser enviadas via método POST para o arquivo php de nome formularioresposta.php possa receber as informações e fazer a exibição das mesmas.
+        Além do botão enviar, colocar o botão de limpar "reset".
+    !-->
+
+        <form name="form" method="post" action="formularioresposta.php">
+        <p>Nome:<br>
+        <input name="nome" type="text" id="nome" size="30" maxlenght="30"></p>
+        <p>Senha:<br>
+        <input name="senha" type="password" id="senha" size="10" maxlenght="10"></p>
+        <p>Genero:<br>
+        <input name="genero" type="radio" value="masculino">masculino
+        <input name="genero" type="radio" value="feminino">feminino
+        <input name="genero" type="radio" value="outro">outro
+        <p>Selecione o Turno:<br>
+        <input name="turno" type="radio" value="manhã">manhã
+        <input name="turno" type="radio" value="tarde">tarde
+        <input name="turno" type="radio" value="noite">noite</p>
+        <p>Cidade:<br>
+        <select name="cidade" id="cidade">
+            <option value="vazio"> </option>
+            <option value="Rio">Rio de Janeiro</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+        </select></p>
+        <p><input type="reset" value="Limpar Formulario"></p>
+        <p><input type = "submit" value="Enviar"></p>
+
+        </form>
+        </body>
+    </html>
+
+
+
+    

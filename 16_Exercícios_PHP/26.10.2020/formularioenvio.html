@@ -1,0 +1,28 @@
+<html>
+    <head><title>Formulario</title></head>
+    <body>
+        <form name="form" method="post" action="formularioresposta.php">
+            <p>Nome:<br>
+            <input name="nome" type="text" id="nome" size="30" maxlength="30"></p>
+            <p>Senha:<br>
+            <input name="senha" type="password" id="senha" size="10" maxlength="10"></p>
+            <p>Genero:<br>
+            <input name="genero" type="radio" value="Masculino">Masculino
+            <input name="genero" type="radio" value="Feminino">Feminino
+            <input name="genero" type="radio" value="Outro">Outro
+            <p>Selecione o Turno:<br>
+            <input name="turno" type="checkbox" id="turno" value="Manha">Manha
+            <input name="turno" type="checkbox" id="turno" value="Tarde">Tarde
+            <input name="turno" type="checkbox" id="turno" value="Noite">Noite</p>
+            <p>Cidade:<br>
+            <select name="cidade" id="cidade">
+                <option value="vazio"> </option>
+                <option value="Rio">Rio de Janeiro</option>
+                <option value="Sao Paulo">Sao Paulo</option>
+                <option value="Belo Horizonte">Belo Horizonte</option>
+            </select></p>
+            <p><input type="submit" value="Enviar"></p>
+            
+        </form>
+    </body>
+</html>
