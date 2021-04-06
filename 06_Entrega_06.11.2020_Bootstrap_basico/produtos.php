@@ -1,62 +1,7 @@
-<<<<<<< HEAD
-<meta charset="utf-8">
-
-=======
->>>>>>> 4aed5d3 (atualizando pastas do git)
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "fseletro";
-$conn = mysqli_connect($servername, $username, $password, $database);
-<<<<<<< HEAD
-=======
-mysqli_set_charset($conn , "utf8");
-
->>>>>>> 4aed5d3 (atualizando pastas do git)
-
-if (!$conn) {
-  die("A conexao falhou:" . mysqli_connect_error());
-}
-?>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?php require_once('bootstrap.html') ?>
-  <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/script.js"></script> 
-  <title>Produtos_FullStackEletro</title>
-  <style>
-    body {
-      background-color: white;
-    }
-  </style>
-</head>
-
-<body class="d-flex flex-column" style="min-height: 100vh">
-  <?php include_once('menu.html') ?>
-  <header class="container text-black border-bottom border-white mb-3" style="padding-top: 60px;">
-    <h2>Produtos</h2>
-  </header>
-
-  <main class="container flex-fill">
-    <section class="row">
       <div class=" col-md-3 pb-4 font-weight-bold text-white">
-        <h3>Categorias</h3>
-        <ul class="nav flex-column">
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="todasCategorias()">Todos (12) </button></li>
-          <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('geladeira')">Geladeiras (3) </button></li>
-          <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('fogao')">Fogões (2) </button></li>
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('microondas')">Micro-ondas (3) </button></li>
-<<<<<<< HEAD
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavaloucas')">Lava-louças (2) </button></li>
-=======
-          <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavalouca')">Lava-louças (2) </button></li>
->>>>>>> 4aed5d3 (atualizando pastas do git)
           <li class="nav-item"> <button class="btn btn-outline-danger w-100 font-weight-bold" onclick="exibirCategoria('lavaroupas')">Lavadora de roupas (2) </button></li>
         </ul>
       </div>

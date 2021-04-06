@@ -14,7 +14,7 @@ const Home = () => {
 
   <main class="container flex-fill d-flex flex-column text-center text-black justify-content-around">
 
-    <h3>🌞 Aproveite as nossas ofertas de Verão! 🌞  </h3>
+    <h3>🍂 Aproveite as nossas ofertas de Outono! 🍁  </h3>
     <br />
     <div class="container text-center text-black font-weight-bold ">
     <img src={"./imagens/summer2.gif"} alt="Turma do Snoopy festa fim de ano" height="400px" />
